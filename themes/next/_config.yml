@@ -52,7 +52,7 @@ menu:
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
-  #commonweal: /404/
+  commonweal: /404/
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -146,8 +146,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -315,8 +315,8 @@ han: false
 # Swiftype Search API Key
 #swiftype_key:
 
-# Baidu Analytics ID
-#baidu_analytics:
+# Baidu Analytics ID 百度统计
+baidu_analytics: cddff6adbbe42a225414863f57b80b15
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -477,13 +477,14 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: "${hits} results found in ${time} ms"
+    input_placeholder: 请输入关键字
+    hits_empty: "没有找到与 “${query}” 相关内容"
+    hits_stats: "${hits} 条相关记录，共耗时 ${time} ms"
+
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
