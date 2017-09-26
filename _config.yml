@@ -90,4 +90,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/chenjunwen/chenjunwen.github.io.git
+  branch: master
