@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://chenjunwen.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -25,9 +25,10 @@ algolia:
   indexName: 'blog'
   chunkSize: 5000
 # 错误  Please set an `HEXO_ALGOLIA_INDEXING_KEY` environment variable to enable content indexing.
-#解决办法：
+# 更新数据：hexo algolia
+#解决办法：64a0439c0082400a6ef4897be62a9668
       #重新在https://www.algolia.com/apps/G59F9PHJPH/api-keys/restricted申请多一个拥有Add records, Delete records, List indices, Delete index权限的API Key
-      #然后环境变量 set HEXO_ALGOLIA_INDEXING_KEY = API KEY(刚生成的)
+      #然后环境变量 set HEXO_ALGOLIA_INDEXING_KEY=API KEY(刚生成的)
 
 
 # Directory
