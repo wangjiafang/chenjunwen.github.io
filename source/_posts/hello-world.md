@@ -1,5 +1,5 @@
 ---
-title: 从零开始
+title: hexo从零开始
 tag: hexo
 ---
 
