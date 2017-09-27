@@ -1,5 +1,6 @@
 ---
 title: 从零开始
+tag: hexo
 ---
 
 
