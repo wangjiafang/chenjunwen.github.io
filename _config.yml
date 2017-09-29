@@ -3,26 +3,26 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小白之家
+title: 大白之家
 subtitle:
-description: 从哪里跌倒，就从哪爬起来！
-author: Joven
+description: 心若向阳 无谓悲伤
+author: wangjiafng
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://chenjunwen.github.io
+url: http://wangjiafang.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # 搜索服务
 algolia:
-  applicationID: 'G59F9PHJPH'
-  apiKey: 'fd45c74158859bdf2ed2d2afaf4c1e21'
-  adminApiKey: 'dfc480dacd70cd57bff6d074a62e6716'
-  indexName: 'blog'
+  applicationID: '4XGNET0HR0'
+  apiKey: 'ed4f93f99268edac03505819fc09b2b0'
+  adminApiKey: 'ab377862cdd047dd607a9875697557ec'
+  indexName: 'wangjiafang'
   chunkSize: 5000
 # 错误  Please set an `HEXO_ALGOLIA_INDEXING_KEY` environment variable to enable content indexing.
 # 更新数据：hexo algolia
@@ -92,5 +92,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/chenjunwen/chenjunwen.github.io.git
+  repository: https://github.com/wangjiafang/wangjiafang.github.io.git
   branch: master
